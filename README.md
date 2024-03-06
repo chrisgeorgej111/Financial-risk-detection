@@ -10,4 +10,12 @@ loan payments. This analysis will assist the company in minimizing
 financial losses while ensuring that creditworthy applicants are not
 unfairly rejected.
 
+This dataset required lots of preprocessing, feature creation, cutting down of several correlated features.
+
+After all preprocessing,encoding, Scaling, Sampling(because it is an imbalanced dataset),several classification models were used to classify the defaulters..Since Logistic Regression gave better results that model was chosen for hypertuning to optimise the model.
+
+The model was hypertuned to improve the recall score considering that the most number of defaulters have to be predicted..
+finally i have obtained a recall score of 63.
+
+
 
